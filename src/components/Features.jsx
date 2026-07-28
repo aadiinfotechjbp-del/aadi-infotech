@@ -70,7 +70,7 @@ export default function Features() {
           {features.map((feature) => (
             <div key={feature.id} className="flex items-start space-x-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
               <div className="flex-shrink-0 h-10 w-10 flex items-center justify-center bg-primary-50 text-primary-600 rounded-lg">
-                {feature.icon}
+                <feature.icon className="h-5 w-5" />
               </div>
               <div>
                 <p className="text-gray-700">{feature.title}</p>
