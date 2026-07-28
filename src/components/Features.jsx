@@ -1,18 +1,9 @@
-import { 
-  Layout, 
-  ShieldCheck, 
-  Wind, 
-  Package, 
-  Lock, 
-  Wind, 
-  Package, 
+import {
+  Layout,
   ShieldCheck,
   Wind,
   Package,
-  ShieldCheck,
-  Wind,
-  Package,
-  ShieldCheck
+  Lock
 } from 'lucide-react';
 
 export default function Features() {
