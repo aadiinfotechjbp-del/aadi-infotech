@@ -165,7 +165,6 @@ export default function Contact() {
                   <option value="DVR Storage">DVR Storage</option>
                 </select>
               </div>
-              </div>
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                   Message

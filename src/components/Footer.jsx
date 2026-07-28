@@ -59,7 +59,6 @@ export default function Footer() {
             <h4 className="font-semibold mb-3">Follow Us</h4>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-white opacity-70 transition-opacity">
-                <!-- Social media icons would go here -->
                 <span className="text-xl">📱</span>
               </a>
               <a href="#" className="hover:text-white opacity-70 transition-opacity">
