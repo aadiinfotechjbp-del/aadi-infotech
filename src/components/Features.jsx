@@ -67,16 +67,19 @@ export default function Features() {
           Key Features
         </h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {features.map((feature) => (
-            <div key={feature.id} className="flex items-start space-x-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="flex-shrink-0 h-10 w-10 flex items-center justify-center bg-primary-50 text-primary-600 rounded-lg">
-                {feature.icon}
+          {features.map((feature) => {
+            const Icon = feature.icon;
+            return (
+              <div key={feature.id} className="flex items-start space-x-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                <div className="flex-shrink-0 h-10 w-10 flex items-center justify-center bg-primary-50 text-primary-600 rounded-lg">
+                  <Icon className="h-5 w-5" />
+                </div>
+                <div>
+                  <p className="text-gray-700">{feature.title}</p>
+                </div>
               </div>
-              <div>
-                <p className="text-gray-700">{feature.title}</p>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
